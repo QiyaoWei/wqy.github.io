@@ -1,0 +1,6 @@
+1. Written April 9th, 2021. Currently there are many attribute-object labeled datasets, such as UTZAP50K, MIT-STATES, CUB, and so on. There are also verb-object
+labeled datasets, more commonly known as Human Object Interaction (HOI) datasets such as HICO and V-COCO. The natural next step, then, is to have a tri-tuple label,
+consisting of person-doing something-to object with some attribute, aka verb-noun-adjective. The collection fo current datasets, however, including the general
+purpose image captioning dataset labels are too messy to aggregate together such dataset. Specifically, datasets like COCO and VisualGenome have images that are
+collected in an unregulated fashion (and thus difficult to have sensible tri-state annotations), and well-collected image datasets like HICO does not have sufficient
+annotation for adjectives. This problem is easily solvable through Amazon Mechanical Turk (AMT), but that's an effort for another time.
